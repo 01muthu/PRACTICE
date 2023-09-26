@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 12px;
+  color: rgb(133, 0, 0);
+}
+body {
+  background-color: rgb(23, 23, 23);
+  color: #fff;
+}
+#card {
+  background-color: #fff;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+header {
+  background-color: darkslateblue;
+  display: flex;
+  padding: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+header .left {
+  font-weight: bold;
+}
+header ul {
+  display: flex;
+  font-weight: 12px;
+  list-style: none;
+}
+header ul > li {
+  padding-right: 20px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+header a.active{
+  color: orange;
+}
+header a:hover{
+  color:aqua
+}
